@@ -12,3 +12,5 @@ private static string methodName = "";
 
         {
             Logger Logger = LogManager.GetCurrentClassLogger(); // в рамках конструктора логгер предлагает с маленькой буквы
+
+ававава
