@@ -1,0 +1,14 @@
+catch (StorageException ex)
+{
+          Logger.Error(
+               string.Format("StorageException caught. {0}. InnerException: {1}", ex.Message,
+                    ex.InnerException), ex);
+}
+catch (EngineException e)
+
+
+
+private static string methodName = "";
+
+        {
+            Logger Logger = LogManager.GetCurrentClassLogger(); // в рамках конструктора логгер предлагает с маленькой буквы
